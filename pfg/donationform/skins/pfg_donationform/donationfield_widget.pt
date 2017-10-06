@@ -32,7 +32,7 @@
                            tal:attributes="value amount;
                                            name level_field;
                                            checked python:(current_value == amount) and 'checked' or None"/>
-                    <span tal:condition="label" tal:replace="string:$$${formatted_amount} - ${label}"/><span tal:condition="not:label" tal:replace="string:$$${formatted_amount}"/><br/>
+                    $<span tal:condition="label" tal:replace="string:${formatted_amount} - ${label}"/><span tal:condition="not:label" tal:replace="string:${formatted_amount}"/><br/>
                   </tal:defines>
                 </tal:levels>
               </p>

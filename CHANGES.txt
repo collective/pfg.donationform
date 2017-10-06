@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2.4 (unreleased)
+------------------
+
+- Fix display of prices when using Chameleon.
+  [davisagli]
+
 1.2.3 (2012-01-27)
 ------------------
 
